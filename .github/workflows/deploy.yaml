@@ -42,6 +42,7 @@ jobs:
       - name: Build
         run: ./scripts/build-image.sh
 
+
       #
       # Publishes the Docker image to the container registry.
       #
