@@ -7,7 +7,7 @@
 # export VERSION=<the-version-to-deploy>
 # envsubst < ./scripts/kubernetes/deploy.yaml | kubectl apply -f -
 #
-apiVersion: apps/v2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: video-streaming
